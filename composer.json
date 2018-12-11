@@ -1,0 +1,18 @@
+{
+    "name": "blackbit/transactional",
+    "description": "Trait to help wrap services in a transactional service that will roll back all changes to DB in case of exception",
+    "type": "library",
+    "require": {
+        "doctrine/dbal": "~2.5",
+        "symfony/framework-bundle": "~2.7|~3.0|~4.0",
+        "doctrine/doctrine-bundle": "1,4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AkronimBlack",
+            "email": "bojanmadzaracka@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
