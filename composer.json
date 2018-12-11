@@ -13,5 +13,10 @@
             "email": "bojanmadzaracka@gmail.com"
         }
     ],
-    "minimum-stability": "beta"
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "Transactional\\": "src"
+        }
+    }
 }
