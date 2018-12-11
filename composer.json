@@ -4,8 +4,7 @@
     "type": "library",
     "require": {
         "doctrine/dbal": "~2.5",
-        "symfony/framework-bundle": "~2.7|~3.0|~4.0",
-        "doctrine/doctrine-bundle": "~1,4"
+        "symfony/framework-bundle": "~2.7|~3.0|~4.0"
     },
     "license": "MIT",
     "authors": [
